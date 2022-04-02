@@ -10,7 +10,7 @@ app.use(cors())
 const db = mysql.createPool({
     host: 'localhost',
     user: 'root',
-    password: 'VVeeggeettaa211',
+    password: '',
     database: 'test_nwtdb',
     dateStrings: true,
     decimalNumbers: true
